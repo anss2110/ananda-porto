@@ -1,8 +1,11 @@
 {
+  "homepage": "http://ananda-porto.github.io",
   "name": "ananda-porto",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d deploy",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -13,6 +16,7 @@
     "@emotion/styled": "^11.10.0",
     "@mui/lab": "^5.0.0-alpha.102",
     "@mui/material": "^5.10.8",
+    "gh-pages": "^4.0.0",
     "next": "12.2.4",
     "react": "18.2.0",
     "react-burger-menu": "^3.0.8",
