@@ -1,5 +1,4 @@
 import { Box, ThemeProvider, Typography } from '@mui/material';
-import Image from 'next/image';
 import React from 'react';
 import { AiFillLeftCircle, AiFillRightCircle } from 'react-icons/ai';
 import { FaWhatsapp } from 'react-icons/fa';
@@ -64,7 +63,7 @@ const Component = () => {
                 <Slider className='lp__wrSlideMobile' {...settings}>
                   <Box sx={SXHome.wr.items} onClick={() => { window.open('https://bridelima.id', '_blank') }}>
                     <Box className='lp__wrIconWrapMobile'>
-                      <Image src='/images/delima.png' alt='delima' className='lp__wrIconMobile' />
+                      <img src='/images/delima.png' alt='delima' className='lp__wrIconMobile' />
                     </Box>
                     <Box className='lp__wrDescMobile'>
                       <Typography variant='body'>
@@ -74,7 +73,7 @@ const Component = () => {
                   </Box>
                   <Box sx={SXHome.wr.items} onClick={() => window.open('https://homespot.id', '_blank')}>
                     <Box className='lp__wrIconWrapMobile'>
-                      <Image src='/images/homespot.png' alt='homespot' className='lp__wrIconMobile' />
+                      <img src='/images/homespot.png' alt='homespot' className='lp__wrIconMobile' />
                     </Box>
                     <Box className='lp__wrDescMobile'>
                       <Typography variant='body'>
@@ -84,7 +83,7 @@ const Component = () => {
                   </Box>
                   <Box sx={SXHome.wr.items} onClick={() => window.open('https://simpedesumi.bri.co.id', '_blank')}>
                     <Box className='lp__wrIconWrapMobile'>
-                      <Image src='/images/simpedes-umi.png' alt='homespot' className='lp__wrIconMobile' />
+                      <img src='/images/simpedes-umi.png' alt='homespot' className='lp__wrIconMobile' />
                     </Box>
                     <Box className='lp__wrDescMobile'>
                       <Typography variant='body'>

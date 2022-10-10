@@ -1,5 +1,4 @@
 import { Box, ThemeProvider, Typography } from '@mui/material';
-import Image from 'next/image';
 import React from 'react';
 import { FaWhatsapp } from 'react-icons/fa';
 import { HiMail } from 'react-icons/hi';
@@ -33,7 +32,7 @@ const Component = () => {
               <Box sx={{ display: 'flex', flexDirection: 'row', gap: 10, justifyContent: 'center', flexFlow: 'wrap' }}>
                 <Box sx={SXHome.wr.items} onClick={() => { window.open('https://bridelima.id', '_blank') }}>
                   <Box className='lp__wrIconWrap'>
-                    <Image src='/images/delima.png' alt='delima' className='lp__wrIcon' />
+                    <img src='/images/delima.png' alt='delima' className='lp__wrIcon' />
                   </Box>
                   <Typography variant='body' className='lp__wrDesc'>
                     Delima
@@ -41,7 +40,7 @@ const Component = () => {
                 </Box>
                 <Box sx={SXHome.wr.items} onClick={() => window.open('https://homespot.id', '_blank')}>
                   <Box className='lp__wrIconWrap'>
-                    <Image src='/images/homespot.png' alt='homespot' className='lp__wrIcon' />
+                    <img src='/images/homespot.png' alt='homespot' className='lp__wrIcon' />
                   </Box>
                   <Typography variant='body' className='lp__wrDesc'>
                     Homespot
@@ -49,7 +48,7 @@ const Component = () => {
                 </Box>
                 <Box sx={SXHome.wr.items} onClick={() => window.open('https://simpedesumi.bri.co.id', '_blank')}>
                   <Box className='lp__wrIconWrap'>
-                    <Image src='/images/simpedes-umi.png' alt='homespot' className='lp__wrIcon' />
+                    <img src='/images/simpedes-umi.png' alt='homespot' className='lp__wrIcon' />
                   </Box>
                   <Typography variant='body' className='lp__wrDesc'>
                     Simpedes UMi
