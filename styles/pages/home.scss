@@ -1,0 +1,179 @@
+.landingPageBase {
+  width: 100%;
+  height: 100%;
+}
+
+.lp {
+  &__pp {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  &__skillIcon {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  &__skillIconMobile {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  &__skillIconItems {
+    width: inherit;
+    height: inherit;
+  }
+
+  &__xpRowItem {
+    margin: auto 0;
+    place-content: center;
+  }
+
+  &__wrSlideMobile {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  &__wrIconWrap {
+    width: 12rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  &__wrIconWrapMobile {
+    width: inherit;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  &__wrIcon {
+    width: 10rem;
+    margin: 0 auto;
+  }
+
+  &__wrIconMobile {
+    width: 50vw;
+    margin: 0 auto;
+  }
+
+  &__wrDesc {
+    margin: 0.5rem 0;
+  }
+
+  &__wrDescMobile {
+    width: 100%;
+    padding: 1.5vh 2vw;
+    text-align: center;
+  }
+
+  &__fsWrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  &__fsIcon {
+    color: #fff;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: auto;
+  }
+
+  &__fsDesc {
+    margin: auto 0;
+  }
+}
+
+.slideArrow {
+  position: absolute;
+  color: #9E9E9E;
+  font-size: 8vw;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.nextArrow {
+  top: 10vh;
+  right: -5vw;
+}
+
+.prevArrow {
+  top: 10vh;
+  left: -5vw;
+}
+
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+
+  /* Our sidebar item styling */
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: #d1d1d1;
+  transition: color 0.2s;
+}
+
+/* Change color on hover */
+.bm-item:hover {
+  color: white;
+}
+
+/* The rest copied directly from react-burger-menu docs */
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 1.5rem;
+  margin-top: 2vh;
+  margin-left: 4vw;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #373a47;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #373a47;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
