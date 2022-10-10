@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import '../styles/globals.scss';
+import '../styles/pages/home.scss';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 
