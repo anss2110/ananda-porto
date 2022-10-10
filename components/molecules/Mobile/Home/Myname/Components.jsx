@@ -48,7 +48,7 @@ const Components = () => {
                 <b>FRONT END DEVELOPER</b>
               </Typography>
               <Typography variant='body1' sx={{ textAlign: 'left' }}>
-                Seorang Front End Developer dengan pengalaman 2 tahun di industri IT perbankan. <br />
+                Seorang Front End Developer dengan pengalaman 3 tahun di industri IT perbankan. <br />
                 Mengembangkan aplikasi berbasis web dengan React JS, Next JS, dan Flutter Web. <br />
                 Dan pernah membantu dalam mengembangkan aplikasi Perbankan. <br />
               </Typography>

@@ -1,4 +1,5 @@
 import { Box, ThemeProvider, Typography } from '@mui/material';
+import Image from 'next/image';
 import React from 'react';
 import { HomeTheme } from '../../../../../styles/sx/Home/theme/Home/Theme';
 
@@ -29,7 +30,7 @@ const Components = () => {
             }}
           >
             <Box sx={{ width: '10rem', height: '10rem', margin: 'auto' }}>
-              <img className='lp__pp' alt='profile-pic' src='/images/profile-pic.jpg' />
+              <Image className='lp__pp' alt='profile-pic' src='/images/profile-pic.jpg' layout="fill" objectFit="contain" />
             </Box>
             <Box
               sx={{
@@ -47,7 +48,7 @@ const Components = () => {
                 <b>FRONT END DEVELOPER</b>
               </Typography>
               <Typography variant='body1'>
-                Seorang Front End Developer dengan pengalaman 2 tahun di industri IT perbankan. <br />
+                Seorang Front End Developer dengan pengalaman 3 tahun di industri IT perbankan. <br />
                 Mengembangkan aplikasi berbasis web dengan React JS, Next JS, dan Flutter Web. <br />
                 Dan pernah membantu dalam mengembangkan aplikasi Perbankan. <br />
               </Typography>
