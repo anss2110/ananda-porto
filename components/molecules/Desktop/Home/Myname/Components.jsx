@@ -1,4 +1,5 @@
 import { Box, ThemeProvider, Typography } from '@mui/material';
+import Image from 'next/image';
 import React from 'react';
 import { HomeTheme } from '../../../../../styles/sx/Home/theme/Home/Theme';
 
@@ -29,7 +30,7 @@ const Components = () => {
             }}
           >
             <Box sx={{ width: '10rem', height: '10rem', margin: 'auto' }}>
-              <img className='lp__pp' alt='profile-pic' src='/images/profile-pic.jpg' />
+              <Image className='lp__pp' alt='profile-pic' src='/images/profile-pic.jpg' />
             </Box>
             <Box
               sx={{
