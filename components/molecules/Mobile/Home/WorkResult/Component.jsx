@@ -1,11 +1,11 @@
-import React, { useRef } from 'react';
 import { Box, ThemeProvider, Typography } from '@mui/material';
-import { HomeTheme } from '../../../../../pages/styles/theme/Home/Theme';
-import { SXHome } from '../../../../../pages/styles/sx/Home/SX';
+import React from 'react';
+import { AiFillLeftCircle, AiFillRightCircle } from 'react-icons/ai';
 import { FaWhatsapp } from 'react-icons/fa';
 import { HiMail } from 'react-icons/hi';
-import { AiFillLeftCircle, AiFillRightCircle } from 'react-icons/ai';
 import Slider from "react-slick";
+import SXHome from '../../../../../styles/sx/Home/SX';
+import { HomeTheme } from '../../../../../styles/sx/Home/theme/Home/Theme';
 
 const Component = () => {
 

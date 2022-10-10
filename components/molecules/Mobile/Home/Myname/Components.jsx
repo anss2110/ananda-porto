@@ -1,6 +1,6 @@
-import React from 'react';
 import { Box, ThemeProvider, Typography } from '@mui/material';
-import { HomeTheme } from '../../../../../pages/styles/theme/Home/Theme';
+import React from 'react';
+import { HomeTheme } from '../../../../../styles/sx/Home/theme/Home/Theme';
 
 const Components = () => {
   return (

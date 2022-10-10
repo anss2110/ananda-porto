@@ -1,12 +1,12 @@
-import React from 'react';
-import { Box, ThemeProvider, Typography } from '@mui/material';
-import { HomeTheme } from '../../../../../pages/styles/theme/Home/Theme';
 import Timeline from '@mui/lab/Timeline';
 import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
 import TimelineItem, { timelineItemClasses } from '@mui/lab/TimelineItem';
 import TimelineSeparator from '@mui/lab/TimelineSeparator';
+import { Box, ThemeProvider, Typography } from '@mui/material';
+import React from 'react';
+import { HomeTheme } from '../../../../../styles/sx/Home/theme/Home/Theme';
 
 const Component = () => {
   return (
