@@ -1,9 +1,9 @@
-import React from 'react';
 import { Box, ThemeProvider, Typography } from '@mui/material';
-import { HomeTheme } from '../../../../../pages/styles/theme/Home/Theme';
-import { SXHome } from '../../../../../pages/styles/sx/Home/SX';
+import React from 'react';
 import { FaWhatsapp } from 'react-icons/fa';
 import { HiMail } from 'react-icons/hi';
+import SXHome from '../../../../../styles/sx/Home/SX';
+import { HomeTheme } from '../../../../../styles/sx/Home/theme/Home/Theme';
 
 const Component = () => {
   return (

@@ -1,9 +1,9 @@
 import { ThemeProvider, Typography } from '@mui/material';
 import { Box } from '@mui/system';
 import React, { useEffect, useState } from 'react';
-import { HomeTheme } from '../../../../pages/styles/theme/Home/Theme';
 import { slide as Menu } from 'react-burger-menu';
 import { HiMenu } from 'react-icons/hi';
+import { HomeTheme } from '../../../../styles/sx/Home/theme/Home/Theme';
 import { SidebarMenuMobile } from '../../../atoms';
 
 const Components = () => {

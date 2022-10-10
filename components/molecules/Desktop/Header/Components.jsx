@@ -1,7 +1,7 @@
 import { ThemeProvider, Typography } from '@mui/material';
 import { Box } from '@mui/system';
 import React from 'react';
-import { HomeTheme } from '../../../../pages/styles/theme/Home/Theme';
+import { HomeTheme } from '../../../../styles/sx/Home/theme/Home/Theme';
 import { HeaderMenu } from '../../../atoms';
 
 const Components = () => {

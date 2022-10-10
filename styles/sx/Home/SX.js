@@ -1,4 +1,4 @@
-export const SXHome = {
+const SXHome = {
   skill: {
     items: {
       width: 'max-content',
@@ -36,3 +36,5 @@ export const SXHome = {
     }
   }
 }
+
+export default SXHome;

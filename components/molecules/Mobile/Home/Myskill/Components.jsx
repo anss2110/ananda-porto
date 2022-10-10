@@ -2,8 +2,8 @@ import { Box, ThemeProvider, Typography } from '@mui/material';
 import React from 'react';
 import { FaReact } from 'react-icons/fa';
 import { SiCss3, SiElastic, SiFlutter, SiHtml5, SiJavascript, SiMaterialui, SiTailwindcss } from 'react-icons/si';
-import { SXHome } from '../../../../../pages/styles/sx/Home/SX';
-import { HomeTheme } from '../../../../../pages/styles/theme/Home/Theme';
+import SXHome from '../../../../../styles/sx/Home/SX';
+import { HomeTheme } from '../../../../../styles/sx/Home/theme/Home/Theme';
 
 const Components = () => {
   return (
